@@ -11,6 +11,10 @@ brew tap hoium/tap
 brew install jc-cli
 ```
 
+> Recent Homebrew versions refuse to load formulae from untrusted third-party taps.
+> If you hit an `untrusted tap` error, run `brew trust hoium/tap` (or
+> `brew trust --formula hoium/tap/jc-cli`) and re-run the install.
+
 Then `jc` is on your `PATH`:
 
 ```sh
