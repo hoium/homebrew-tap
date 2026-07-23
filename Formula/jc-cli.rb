@@ -1,7 +1,7 @@
 class JcCli < Formula
   desc "JumpCloud CLI"
   homepage "https://github.com/TheJumpCloud/jc-cli"
-  version "1.46.4"
+  version "1.46.5"
   license "MIT"
 
   livecheck do
@@ -12,22 +12,22 @@ class JcCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/TheJumpCloud/jc-cli/releases/download/#{version}/jc-darwin-arm64.tar.gz"
-      sha256 "c9fb07c64307483eb7a968947f0c72b8609a9ba5ae557e07cbe59fb9bc8a6464"
+      sha256 "20e08b6914ddc1a225bf7bdf27d98268699b645d19b99fe61c841f1c97a2205a"
     end
     on_intel do
       url "https://github.com/TheJumpCloud/jc-cli/releases/download/#{version}/jc-darwin-amd64.tar.gz"
-      sha256 "614c35e971fc67d9ccd15a975ec30220e5253ba7a5d8492404747dc2ba2901cb"
+      sha256 "9fe2735d213ae5d63cbb32eff84bddaee42807e11422ae803a8f2181b25431ed"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/TheJumpCloud/jc-cli/releases/download/#{version}/jc-linux-arm64.tar.gz"
-      sha256 "933382acb3378e1770a23798fb3d655941e15ca63d9e42fc3ba617bbcbe954f1"
+      sha256 "1b3140907da4b35d6fa65188f5a0a60abd23288971dc71843020ab75e4440e80"
     end
     on_intel do
       url "https://github.com/TheJumpCloud/jc-cli/releases/download/#{version}/jc-linux-amd64.tar.gz"
-      sha256 "8986f72fc1908b7461d4b5993689e056d12c69173393eafe38cb9a0b1e6b501b"
+      sha256 "2664b12b750c1ee145911595eb1643e528c4b08df62ebe0f5f0621afbe12f45b"
     end
   end
 
